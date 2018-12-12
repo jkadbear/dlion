@@ -1,0 +1,20 @@
+{
+  "name": "dlion",
+  "version": "0.0.1",
+  "description": "Dandelion-CLI - LoRa Testbed CLI Manager",
+  "main": "cli.js",
+  "bin": {
+    "dlion": "./cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jkadbear",
+  "license": "MIT",
+  "dependencies": {
+    "charm": "^1.0.2",
+    "neodoc": "^2.0.2",
+    "readline-sync": "^1.4.9",
+    "socket.io-client": "^2.1.1"
+  }
+}
