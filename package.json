@@ -2,6 +2,10 @@
   "name": "dlion",
   "version": "0.0.1",
   "description": "Dandelion-CLI - LoRa Testbed CLI Manager",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jkadbear/dlion.git"
+  }, 
   "main": "cli.js",
   "bin": {
     "dlion": "./cli.js"
