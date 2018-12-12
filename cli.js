@@ -36,7 +36,7 @@ else {
     secret_token = fs.readFileSync(token_file);
 }
 
-const socket = io.connect('http://lpwan-thu.top:8443', { query: 'whoami='+secret_token });
+const socket = io.connect('http://thulpwan.top:8443', { query: 'whoami='+secret_token });
 
 const charm = require('charm')();
 let progress_bar = {};
